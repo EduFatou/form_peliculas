@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    color: black;
+    background-color: white;
+  }
+
+  form {
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 10%;
+    padding: 10%;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: solid 1px #aaa;
+    background-color: #eee;
+  }
+  
+  th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ebe9e9;
+  }
+
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #e0efed;
+  }
+
+  

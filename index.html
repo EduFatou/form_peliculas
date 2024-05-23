@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Lista de Películas</h1>
+  </header>
+  <main>
+    <form action="" method="get" id="formulario">
+      <h2>Introduce la película</h2>
+      <label for="name">nombre de la película:</label>
+      <input type="text" name="pelicula" id="name">
+      <label for="director">director:</label>
+      <input type="text" name="director" id="director">
+      <label for="year">año:</label>
+      <input type="number" name="year" id="year">
+      <label for="genre">Género:</label>
+      <select id="genre" name="genre">
+        <option value="selecciona el género" selected></option>
+        <option value="accion">Acción</option>
+        <option value="aventura">Aventura</option>
+        <option value="belica">Bélica</option>
+        <option value="comedia">Comedia</option>
+        <option value="drama">Drama</option>
+        <option value="fantasia">Fantasía</option>
+        <option value="historica">Histórica</option>
+        <option value="terror">Terror</option>
+        <option value="suspense">Suspense</option>
+      </select>
+      <input type="submit" value="Aceptar">
+      <ul id="listaErrores"></ul>
+    </form>
+    <section>
+      <div id="filtrar"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Director</th>
+            <th>Año</th>
+            <th>Género</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+
+        </tbody>
+      </table>
+    </section>
+
+
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>
